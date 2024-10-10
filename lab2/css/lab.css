@@ -2,21 +2,93 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #ddd8c4;
+}
+
+body {
+  background-color: palevioletred;
+}
+
+h1 {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 5px lavenderblush;
+  animation: shake 30s;
+  animation-iteration-count: infinite;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#img-box {
+  border-style: solid;
+  float: left;
+  border-color: firebrick;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+#bunny-img {
+  border-style: solid;
+  float: right;
+  border-color: firebrick;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+div#img-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: darkslateblue;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
   }
-  body {
-    background-color: lightblue;
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
   }
-  
-  h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
   }
-  
-  p {
-    font-family: sans-serif;
-    font-size: 20px;
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
   }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
