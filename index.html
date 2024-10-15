@@ -16,44 +16,66 @@
     <!-- Link to javascript file - DEFER waits until all elements are rendered -->
 
     <!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
+
+    <!--Josefin Sans Font Stylesheet-->
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
   </head>
   <body>
     <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
     <main id="content">
       <section>
         <h1>Trevor Chee</h1>
+        <!--Navigation Menu-->
+        <div class="navbar">
+            <!--Home Menu-->
+            <a href="index.html">HOME</a>
+            <!--About Menu-->
+            <a href="about/index.html">ABOUT</a>
+          <!--Illustrations Dropdown Menu-->
+            <div class="dropdown">
+              <button class="dropbtn">ILLUSTRATIONS
+                <i class="fa fa-caret-down"></i>
+              </button>
+            <!--Original Works - Dropdown Content-->
+              <div class="dropdown-content">
+                <a href="navigation-menu/illustrations/original-works/index.html">Original Works</a>
+              </div>
+            </div> 
+        </div>
+        
         <div class="minor-section">
           <!-- Note that all filenames use lowercase and no spaces -->
-          <img class="my-portrait" src=".\img\trevor_chee_2024.jpg" alt="trevor_chee_2024">
+          <img class="my-portrait" src="./img/trevor_chee_2024.jpg" alt="trevor_chee_2024">
+          <!--Trevor's About Page-->
           <h2>About Me</h2>
           <p>Hello my name is Trevor and I am currently a senior majoring in Art & Design: Games and Playable Media at UCSC. Some of my hobbies and interests are digital illustration, cooking, playing video games, and watching anime.</p>
         </div>
       </section>
+      <!-- Put links to labs here. -->
       <nav id="links">
-        <!-- Put links to labs here. -->
         <div class="assignments major-section">
 			<h2>Labs</h2>
 			<ul class="link-pile">
-				<li>
-					<a href="lab2\HelloWorld.html"
-					>Lab 2: HTML & CSS Starter</a>
-				</li>
         <li>
-					<a href="lab3\index.html"
-					>Lab 3: File Structure and File Transfer</a>
-				</li>
+            <a href="lab2/HelloWorld.html"
+            >Lab 2: HTML & CSS Starter</a>
+        </li>
         <li>
-					<a href="lab4\HelloWorld.html"
-					>Lab 2: Pesudocoding and Problemsolving</a>
-				</li>
+            <a href="lab3/index.html"
+            >Lab 3: File Structure and File Transfer</a>
+        </li>
         <li>
-					<a href="lab5\index.html" 
-					>Lab 5: Data Types and Variables</a>
-				</li>
+            <a href="lab4/index.html"
+            >Lab 4: Pesudocoding and Problemsolving</a>
+        </li>
         <li>
-					<a href="lab6\index.html"
-					>Lab 6: Arrays and Objects</a>
-				</li>
+            <a href="lab5/index.html" 
+            >Lab 5: Data Types and Variables</a>
+        </li>
+        <li>
+            <a href="lab6/index.html"
+            >Lab 6: Arrays and Objects</a>
+        </li>
 			</ul>
         <div/>
       </nav>

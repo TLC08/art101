@@ -4,36 +4,145 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #b1a8b8;
+  background-color: #ffffff;
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  letter-spacing: normal;
+  word-spacing: 5px;
+  font-family: josefin-sans, josefin sans, sans-serif;
+  font-size: 83px;
+  font-weight: normal;
+  line-height: 1.2em;
+  padding: 25px;
+  margin: auto;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
-h1,
 h2,
 h3 {
-  font-family: sans-serif;
+  font-family: josefin-sans, josefin sans, sans-serif;
 }
 
-/* and we can have rules that overlap other rules, both take effect */
-h1 {
-  letter-spacing: 5px;
-  word-spacing: 5px;
-  font-size: 200%;
-  font-family: Helvetica, Arial, sans-serif;
+.link-pile a {
+  font-size: 18px;
+  font-family: josefin-sans, josefin sans, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+/* list style */
+ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(208, 0, 255);
+}
+
+/* Color of links when hovered */
+a:hover,
+.navbar a:hover,
+.dropdown .dropbtn:hover,
+.dropdown-content a:hover {
+  color: rgb(129, 23, 241);
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #6e5f75;
-  background-color: #e7dee9;
+  border: none;
+  background-color: #ffffff;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #6e5f75;
-  background-color: #fcf9ff;
+  border: none;
+  background-color: #ffffff;
+}
+
+/* Font Family for Regular Text */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Consistent Font Styling for Navigation Menu and Dropdown Menu */
+.navbar a,
+.dropdown .dropbtn,
+.dropdown-content a {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  letter-spacing: normal;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  font-family: josefin-sans, josefin sans, sans-serif;
+  padding: 15px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 0px 0px 0px transparent;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }

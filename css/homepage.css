@@ -1,5 +1,8 @@
 /* this css file will only style the homepage of our site */
 
+body {
+  font-size: 100%;
+}
 .my-portrait {
   margin: 10px;
   width: 420px;
