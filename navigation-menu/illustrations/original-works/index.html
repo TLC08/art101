@@ -10,13 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Include a sitewide CSS file for consistent styling across the site -->
-    <link rel="stylesheet" type="text/css" href="../../../../art101/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="css/site.css" />
     <!-- Lab-specifc CSS file for any special styling of this particular page -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="./css/orignal-works.css"
-    />
+    <link rel="stylesheet" type="text/css" href="css/homepage.css" />
     <!-- Link to javascript file - DEFER waits until all elements are rendered -->
 
     <!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
@@ -27,15 +23,32 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
+    <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
     <main id="content">
       <section>
-          <h1>Trevor Chee</h1>
+        <h1>Trevor Chee</h1>
+        <!--Navigation Menu-->
+        <div class="navbar">
+          <!--Home Menu-->
+          <a href="index.html">HOME</a>
+          <!--About Menu-->
+          <a href="about/index.html">ABOUT</a>
+          <!--Illustrations Dropdown Menu-->
+          <div class="dropdown">
+            <button class="dropbtn">
+              ILLUSTRATIONS
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <!--Original Works - Dropdown Content-->
+            <div class="dropdown-content">
+              <a href="navigation-menu/illustrations/original-works/index.html"
+                >Original Works</a
+              >
+            </div>
+          </div>
+        </div>
       </section>
-
-      <section>
-          <h1 class="original-works">Original Works</h1>
-      </section>
+    </main>
   </body>
 </html>
