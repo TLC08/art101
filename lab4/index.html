@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocoding and Problem-solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -18,30 +18,65 @@
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+
+	<!--Josefin Sans Font Stylesheet-->
+	<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'/>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding and Problem-solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The idea of this lab was to learn how to pseudocode things such as everyday tasks and simple computer games and add it as comments to a javasscript file.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>Since this was our first time looking at a javascript file, it took us some time to figure some stuff out; we had to figure out what was an author block/header file. We decided to ask ChatGPT about it. Everything else in the assignment was pretty straightforward.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>The assignment went fairly well. Kimberly decided to do the pseudocode for an everyday task and Trevor decided to do the pseudocode for a simple computer game. Kimberly did "How to Draw a Chair" and Trevor did "Hangman."</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
+<pre><code>
+Drawing a chair:
+1. Collect your materials
+	a. Sketch book, pens, pencils, erasers
+2. Find your subject chair (can be any chair)
+3. Position the chair in any way you like
+	a. Sunlight or artificial light can be hitting it, can be placed at an angle
+4. Observe the chair
+	a. Pay attention to the chair's design - the curves, the surface, and how much detail certain parts of the chair has
+5. Create an outline sketch of the chair
+	a. Doesn't have to be detailed, jot down main features, like the legs, base, and back
+6. Shade in your sketch
+	a. Lightly shade the parts where the light hits the chair, but shade the shadows darker
+7. Trace the outline of the chair with a pen (any pen)
+8. You are done!
+
+// Creating a Hangman game:
+// Choose the word
+	// The game selects a word that the player needs to guess. The player doesn’t know what the word is.
+// Show the player the blanks
+	// The game displays a series of blank spaces representing each letter in the word. The player will know how many letters there are in the word based on the amount of blanks. 
+// Player guesses a letter
+// Check if the guess is correct
+	// If the guessed letter is in the word, the game reveals where that letter appears in the word.
+	// If the guessed letter is not in the word, the game counts it as a wrong guess and updates a visual (drawing a part of the hangman).
+// Repeat until win or loss
+	// If the player guesses all the letters in the word before making too many wrong guesses, they win.
+	// If the player makes too many wrong guesses (usually 6 wrong guesses will draw the full hangman), they lose the game.
+// End the game
+	// If the player wins, the game shows a success message.
+	// If the player loses, the game reveals the correct word.
+</pre></code>
 			</div>
 		</section>
 		<nav id="links">
