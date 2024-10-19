@@ -7,23 +7,26 @@ body {
   background-color: #ffffff;
 }
 
+/* we can have rules apply to multiple elements at the same time with commas */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: josefin-sans, josefin sans, sans-serif;
+}
+
 /* Header Styling */
 h1 {
   text-align: center;
   letter-spacing: normal;
   word-spacing: 5px;
-  font-family: josefin-sans, josefin sans, sans-serif;
   font-size: 83px;
   font-weight: normal;
   line-height: 1.2em;
   padding: 25px;
   margin: auto;
-}
-
-/* we can have rules apply to multiple elements at the same time with commas */
-h2,
-h3 {
-  font-family: josefin-sans, josefin sans, sans-serif;
 }
 
 .link-pile a {

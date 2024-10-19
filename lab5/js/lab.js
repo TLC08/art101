@@ -1,21 +1,22 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+//File: lab.js
+// Author: Kimberly Estrada & Trevor Chee <kestrada9@ucsc.edu> <tlchee@ucsc.edu>
+// Date: 18.10.2024
+// Purpose:
 
-// Constants
+// Description:
 
-// Functions
+// Define Variables
+let make = "Toyota";
+let model = "Corolla SE";
+let color = "Pearl White";
+let year = 2023;
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// Calculate
+let age = 2024 - year;
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+// Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Make: " + model + "<br>");
+document.writeln("Make: " + color + "<br>");
+document.writeln("Make: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");

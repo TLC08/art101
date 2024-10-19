@@ -1,7 +1,7 @@
-/**
+/*
  * File: lab.js
  * Author: Kimberly Estrada & Trevor Chee <kestrada9@ucsc.edu> <tlchee@ucsc.edu>
- * Date: October 17, 2024
+ * Date: 17.10.2024
  * Purpose: Implements the logic for a simple Hangman game
  *
  * Description:
@@ -9,24 +9,6 @@
  * a player guesses letters to figure out a word. It includes word selection,
  * tracking correct and incorrect guesses, and determining win/lose outcomes.
  */
-
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
 
 // Creating a Hangman game:
 // Choose the word
