@@ -9,7 +9,7 @@
 }
 
 .minor-section.minor4 {
-  padding-bottom: 525px;
+  padding-bottom: 720px;
 }
 
 .trevors-car {
@@ -17,7 +17,6 @@
   padding: 10px;
   width: 500px;
   height: 667px;
-  float: right;
-  position: relative;
-  bottom: 200px;
+  float: left;
+  position: static;
 }

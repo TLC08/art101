@@ -19,4 +19,8 @@ document.writeln("Make: " + make + "<br>");
 document.writeln("Make: " + model + "<br>");
 document.writeln("Make: " + color + "<br>");
 document.writeln("Make: " + year + "<br>");
-document.writeln("Age: " + age + " years<br>");
+if (age < 2) {
+  document.writeln("Age: " + age + " year<br>");
+} else {
+  document.writeln("Age: " + age + " years<br>");
+}
