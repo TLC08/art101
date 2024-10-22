@@ -1,7 +1,7 @@
-//File: lab.js
+// File: lab.js
 // Author: Kimberly Estrada & Trevor Chee <kestrada9@ucsc.edu> <tlchee@ucsc.edu>
 // Date: 18.10.2024
-// Purpose:
+// Purpose: Experiment with Data Types and Variables
 
 // Description:
 
@@ -16,9 +16,9 @@ let age = 2024 - year;
 
 // Output
 document.writeln("Make: " + make + "<br>");
-document.writeln("Make: " + model + "<br>");
-document.writeln("Make: " + color + "<br>");
-document.writeln("Make: " + year + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
 if (age < 2) {
   document.writeln("Age: " + age + " year<br>");
 } else {

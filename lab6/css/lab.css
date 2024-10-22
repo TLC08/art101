@@ -7,3 +7,16 @@
   border: solid 1px #888;
   background-color: #ebdeec;
 }
+
+.minor-section.minor4 {
+  padding-bottom: 720px;
+}
+
+.trevors-car {
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 667px;
+  float: left;
+  position: static;
+}
