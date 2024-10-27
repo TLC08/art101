@@ -7,3 +7,39 @@
   border: solid 1px #888;
   background-color: #ebdeec;
 }
+
+.minor-section-a {
+  padding-bottom: 400px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #ebdeec;
+}
+
+.namebadge {
+  float: right;
+  width: 500px;
+}
+
+.namebadge img {
+  width: auto;
+  height: 350px;
+  border-radius: 30px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.name {
+  position: absolute;
+  right: 40px;
+  width: 450px;
+  word-wrap: break-word;
+  font-size: 350%;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+}

@@ -8,8 +8,13 @@
   background-color: #ebdeec;
 }
 
-.minor-section.minor4 {
-  padding-bottom: 720px;
+.minor-section-a {
+  padding-bottom: 710px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #ebdeec;
 }
 
 .trevors-car {
