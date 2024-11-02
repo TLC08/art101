@@ -13,7 +13,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.homelink,
+.sourcelink {
   font-family: josefin-sans, josefin sans, sans-serif;
 }
 
@@ -86,66 +88,6 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Consistent Font Styling for Navigation Menu and Dropdown Menu */
-.navbar a,
-.dropdown .dropbtn,
-.dropdown-content a {
-  font-size: 16px;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  letter-spacing: normal;
-}
-
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: transparent;
-  font-family: josefin-sans, josefin sans, sans-serif;
-  padding: 15px;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: transparent;
-  min-width: 160px;
-  box-shadow: 0px 0px 0px 0px transparent;
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+.sourcelink {
+  float: right;
 }

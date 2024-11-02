@@ -7,3 +7,10 @@
   border: solid 1px #888;
   background-color: #ebdeec;
 }
+
+.special {
+  background-color: rgb(36, 53, 90);
+  border: rgb(163, 92, 133);
+  color: rgb(221, 215, 243);
+  font-weight: bold;
+}
