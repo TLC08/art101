@@ -7,3 +7,45 @@
   border: solid 1px #888;
   background-color: #ebdeec;
 }
+
+#output {
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border: solid 1px black;
+  min-height: 100px;
+}
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+.text:nth-child(odd) p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: rgb(238, 238, 238);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+.text:nth-child(even) p {
+  background-color: #1a98e0;
+  color: rgb(255, 255, 255);
+}
+
+.text:nth-child(even) {
+  text-align: right;
+}
