@@ -1,19 +1,15 @@
-// File: lab.js
-// Author: Kimberly Estrada & Trevor Chee <kestrada9@ucsc.edu> <tlchee@ucsc.edu>
-// Date: 11.11.2024
-// License: Public Domain
-// Purpose: Experiment with JavaScript Events and Forms
-
-// Description: This JavaScript/jQuery script gets a value from an input field and outputs a modified version.
+// index.js - purpose and description here
+// Author: Your Name
+// Date:
 
 // Constants 
 
 // Functions
 
-// Sorts the characters of a string in alphabetical order.
-function sortString(inputString) {
-  // We have to convert our string to an array and back again to sort it
-  return inputString.split("").sort().join("");
+// this is an example function and this comment tells what it doees and what parameters are passed to it.
+function myFunction(param1, param2) {
+  // some code here
+  // return results;
 }
 
 // click listener for button

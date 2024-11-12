@@ -13,8 +13,8 @@ function sortUserName(userName) {
   console.log(sortUserName(userName));
 }
 
-// shuffleArray - take an array and shuffle the contents
-// Thanks to Wes Modes: https://wmodes.github.io/art101/lab7/js/lab7.js & https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+//shuffleArray - take an array and shuffle the contents
+//Thanks to Wes Modes: https://wmodes.github.io/art101/lab7/js/lab7.js & https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 function shuffleArray(array) {
   let currentIndex = array.length,
     temporaryValue,
@@ -42,7 +42,7 @@ function toTitleCase(str) {
   });
 }
 
-// randomizeName - a function that takes user input and randomizes the letters of their name
+//randomizeName - a function that takes user input and randomizes the letters of their name
 function randomizeName(userName) {
   // convert userName string to an array
   let nameArray = userName.toLowerCase().split("");
@@ -57,7 +57,7 @@ function randomizeName(userName) {
 }
 
 // sortUserNameIgnoreCase - a function that sorts uppercase and lowercase letters of the user's name together
-// Thanks to ChatGPT
+//Thanks to ChatGPT
 function sortUserNameIgnoreCase(userName) {
   // Convert the string into an array of characters
   let charArray = userName.split("");
@@ -70,7 +70,7 @@ function sortUserNameIgnoreCase(userName) {
 }
 
 // main - a function that outputs the sorted and randomized names
-// Thanks to Wes Modes: https://wmodes.github.io/art101/lab7/js/lab7.js & ChatGPT
+//Thanks to Wes Modes: https://wmodes.github.io/art101/lab7/js/lab7.js & ChatGPT
 function main() {
   console.log("Main function started.");
 
