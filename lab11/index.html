@@ -2,7 +2,7 @@
 <html>
   <head>
     <!-- This title is used for tabs and bookmarks -->
-    <title>Lab X - Subject/Topic</title>
+    <title>Lab 11 - JavaScript Events and Forms</title>
 
     <!-- Use UTF character set, a good idea with any webpage -->
     <meta charset="UTF-8" />
@@ -15,7 +15,11 @@
     <link rel="stylesheet" type="text/css" href="css/lab.css" />
 
     <!-- load jQuery library to make javascript easier (must be above our lab js)-->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
     <!-- Link to javascript file - DEFER waits until all elements are rendered -->
     <script type="text/javascript" src="./js/lab.js" defer></script>
 
@@ -29,32 +33,60 @@
     <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
     <main id="content">
       <section>
-        <h1>Lab X - Subject/Topic</h1>
+        <h1>Lab 11 - JavaScript Events and Forms</h1>
         <div class="minor-section">
           <h2>Challenge</h2>
-          <p>Restate the challenge of the lab here.</p>
+          <p>
+            The idea of this lab is to experiment with JavaScript Events and
+            Forms.
+          </p>
         </div>
 
         <div class="minor-section">
           <h2>Problems</h2>
-          <p>What problems arose? How did you solve them?</p>
+          <p>
+            I didn't have much problems at all with the inital assignment. It
+            was pretty straightforward.
+          </p>
         </div>
 
         <div class="minor-section">
           <h2>Reflection</h2>
           <p>
-            Put your reflections about this assignment here. How did it go? What
-            kind of energy did you put into the assignment?
+            The assignment overall was pretty straightforward. I ended up doing
+            glitch effects for the page and it ended up looking pretty good. I
+            did use ChatGPT for help on creating the CSS and JavaScript for it.
+            I was able to tweak some of the code to get looking the way I
+            wanted.
           </p>
         </div>
 
         <div class="minor-section">
           <h2>Results</h2>
-          <div id="output"></div>
+          <div id="output">
+            <p>
+              Input your name and it'll sort it and as well as create an
+              anagram!
+            </p>
+            <input type="text" id="user-name" placeholder="Input your name" />
+            <button id="submit">Submit</button><br />
+          </div>
+        </div>
+
+        <div class="minor-section">
+          <div class="scanline-overlay"></div>
+          <h2>Glitchy Page</h2>
+          <p>Want to glitch the page?</p>
+          <button id="startGlitch">Start Glitch</button>
+          <button id="stopGlitch">Stop Glitch</button>
         </div>
       </section>
       <nav id="links">
         <!-- Put links to other pages (including the homepage) here. -->
+        <a class="homelink" href="../index.html"><< Back Home</a>
+        <a class="sourcelink" href="js/lab.js" target="source"
+          >JavaScript Source >></a
+        >
       </nav>
     </main>
   </body>
