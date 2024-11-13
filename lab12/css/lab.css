@@ -7,3 +7,19 @@
   border: solid 1px #888;
   background-color: #ebdeec;
 }
+
+#output {
+  padding: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #4b3669;
+}
+
+.user-output {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #4b3669;
+}
