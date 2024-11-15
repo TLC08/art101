@@ -7,3 +7,24 @@
   border: solid 1px #888;
   background-color: #ebdeec;
 }
+
+#output {
+  display: flex;         /* Enables Flexbox */
+  flex-wrap: wrap;       /* Allows items to wrap to the next line */
+  gap: 5px;             /* Adds space between columns */
+}
+
+.column {
+  width: 25%;            /* Controls how many columns fit per row (25% width = 4 columns per row) */
+  padding: 5px;         /* Adds space inside each column */
+  box-sizing: border-box; /* Ensures padding doesn't affect the column width */
+}
+
+.column p {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}
