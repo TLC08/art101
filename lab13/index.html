@@ -36,44 +36,83 @@
         <h1>Lab 13 - Loops</h1>
         <div class="minor-section">
           <h2>Challenge</h2>
-          <p>The idea of this lab was to experiment with loops./p>
+          <p>The idea of this lab was to experiment with loops.</p>
         </div>
 
         <div class="minor-section">
           <h2>Problems</h2>
-          <p>What problems arose? How did you solve them?</p>
+          <p>I didn't have much trouble with the initial assignment but had some issues with doing Task X. I used
+            ChatGPT to assist me in figuring out where I had went wrong with my code. Through ChatGPT's response, I 
+            was able to learn new things as well.
+          </p>
         </div>
 
         <div class="minor-section">
           <h2>Reflection</h2>
           <p>
-            Put your reflections about this assignment here. How did it go? What
-            kind of energy did you put into the assignment?
+            The initial part of the assigment was okay. Doing part of it in class helped with figuring out the rest of the code. 
+            When I went to do Task X, that's when I ran into some isuses. After several hours of trying to do it on my own, I was
+            able to achieve some success but I ended up using ChatGPT and Wes Modes' code to help me figure it out. I was able to
+            integrate my code with ChatGPT's and Wes Modes' to make it my own than just straight up copying it. 
           </p>
         </div>
 
         <div class="minor-section">
           <h2>Results</h2>
-          <h3>FizzBuzzBoom!</h3>
-          <div>
+          <p>Here is the output of my program.</p>
+          <h2>FizzBuzzBoom!</h2>
+          <div id="input">  
             <p>
-              Where should we stop? <input type="text id="input" placeholder="Enter a number"/></br>
-              Which factors should print what?</br></br>
-              Factors prints what?</br>
-              <input type="text id="input" placeholder="Enter a number"/>
-              <input type="text id="input" placeholder="Enter a number"/></br>
-              <input type="text id="input" placeholder="Enter a number"/>
-              <input type="text id="input" placeholder="Enter a number"/></br>
-              <input type="text id="input" placeholder="Enter a number"/>
-              <input type="text id="input" placeholder="Enter a number"/></br>
-              <input type="text id="input" placeholder="Enter a number"/>
-              <input type="text id="input" placeholder="Enter a number"/></br></br>
-              <button id="button">Submit</button></br>
+              Where should we stop? 
+              <input type="number" min="0" max=""1000" id="max">
+              <br>
+              Which factors should print what?
+              <br>
             </p>
-          </div>
-          <h3>Output</h3>
-          <div id="output">
-          </div>
+              <table>
+                <tr>
+                  <th>Factor</th>
+                  <th>Prints What?</th>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="number" min="0" max="1000" id="num0">
+                  </td>
+                  <td>
+                    <input type="text" id="text0">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="number" min="0" max="1000" id="num1">
+                  </td>
+                  <td>
+                    <input type="text" id="text1">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="number" min="0" max="1000" id="num2">
+                  </td>
+                  <td>
+                    <input type="text" id="text2">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="number" min="0" max="1000" id="num3">
+                  </td>
+                  <td>
+                    <input type="text" id="text3">
+                  </td>
+                </tr>
+              </table>
+              <button id="button">Run</button>
+              </br>
+          </div>   
+          <h2>Output</h2>
+          <div id="output" class="column">
+        </div>
         </div>
       </section>
       <nav id="links">

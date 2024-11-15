@@ -8,16 +8,15 @@
   background-color: #ebdeec;
 }
 
-#output {
-  display: flex;         /* Enables Flexbox */
-  flex-wrap: wrap;       /* Allows items to wrap to the next line */
-  gap: 5px;             /* Adds space between columns */
+div#input,
+div#output {
+  border: solid 1px #ccc;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .column {
-  width: 25%;            /* Controls how many columns fit per row (25% width = 4 columns per row) */
-  padding: 5px;         /* Adds space inside each column */
-  box-sizing: border-box; /* Ensures padding doesn't affect the column width */
+  column-width: 200px;
 }
 
 .column p {
@@ -25,6 +24,29 @@
   padding: 0;
 }
 
-.clearfix {
-  clear: both;
+th {
+  font-family: josefin-sans, josefin sans, sans-serif;
+}
+
+table {
+  padding: 20px;
+}
+
+button {
+  font-size: 110%;
+}
+
+#input p {
+  margin: 0;
+}
+
+#max {
+  width: 50px;
+}
+
+#text0,
+#text1,
+#text2,
+#text3 {
+  width: 100px;
 }
