@@ -2,7 +2,7 @@
 <html>
   <head>
     <!-- This title is used for tabs and bookmarks -->
-    <title>Lab X - Subject/Topic</title>
+    <title>Lab 15 - AJAX</title>
 
     <!-- Use UTF character set, a good idea with any webpage -->
     <meta charset="UTF-8" />
@@ -15,7 +15,11 @@
     <link rel="stylesheet" type="text/css" href="css/lab.css" />
 
     <!-- load jQuery library to make javascript easier (must be above our lab js)-->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <!-- Link to javascript file - DEFER waits until all elements are rendered -->
     <script type="text/javascript" src="./js/lab.js" defer></script>
 
@@ -29,32 +33,38 @@
     <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
     <main id="content">
       <section>
-        <h1>Lab X - Subject/Topic</h1>
+        <h1>Lab 15 - AJAX</h1>
         <div class="minor-section">
           <h2>Challenge</h2>
-          <p>Restate the challenge of the lab here.</p>
+          <p>The idea of this lab was to experiment with jQuery and AJAX.</p>
         </div>
 
         <div class="minor-section">
           <h2>Problems</h2>
-          <p>What problems arose? How did you solve them?</p>
+          <p>I didn't have any issues really. Just took a bit of time trying to understand AJAX and APIs.</p>
         </div>
 
         <div class="minor-section">
           <h2>Reflection</h2>
           <p>
-            Put your reflections about this assignment here. How did it go? What
-            kind of energy did you put into the assignment?
+            I thought that this assignment was pretty straightforward but I did ask ChatGPT for help when I needed it and to assist me in understanding how AJAX and API's work.
           </p>
         </div>
 
         <div class="minor-section">
           <h2>Results</h2>
-          <div id="output"></div>
-        </div>
+          <p>Here is my program execution:</p>
+          <h2>Yes or No</h2>
+            <button id="activate">Activate</button>
+          <div id="yesno-output"></div>
+          <h2>NASA's Picture of the DAY API</h2>
+          <button id="picture">Picture Please!</button>
+          <div id="nasa-output"></div>
       </section>
       <nav id="links">
-        <!-- Put links to other pages (including the homepage) here. -->
+        <a class="homelink" href="../index.html"><< Back Home</a>
+        <a class="sourcelink" href="js/lab.js" target="source">JavaScript Source >></a>
+      </nav>
       </nav>
     </main>
   </body>
