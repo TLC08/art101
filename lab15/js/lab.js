@@ -51,7 +51,6 @@ $("#picture").click(function () {
       // Create the output div
       const outputDiv = `
           <div class="output">
-            <h2>NASA's Picture of the Day</h2>
             <h3>${response.title}</h3>
             <p>${response.explanation}</p>
         `;
