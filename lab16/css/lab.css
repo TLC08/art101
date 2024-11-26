@@ -7,3 +7,21 @@
   border: solid 1px #888;
   background-color: #ebdeec;
 }
+
+#prev,
+#next {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #bd84be;
+  border: 2px solid #83568f;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#prev:hover,
+#next:hover {
+  background-color: #ffb5b5;
+  border-color: #c25050;
+}
